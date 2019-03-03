@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".settings">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="eg5jn@virginia.edu"
+        android:inputType="textEmailAddress"
+        android:singleLine="false"
+        tools:layout_marginBottom="0dp"
+        tools:layout_marginTop="24dp" />
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="05:00"
+        android:inputType="time"
+        tools:layout_marginBottom="0dp"
+        tools:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Your name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="Eric Guan|"
+        tools:layout_marginBottom="0dp"
+        tools:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:hint="703-537-xxxx"
+        android:inputType="phone"
+        tools:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Password"
+        tools:layout_marginTop="45dp" />
+
+</LinearLayout>

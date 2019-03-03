@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Message"
+    tools:showIn="@layout/app_bar_message">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="371dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/inputTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="This is the message that will be sent to your contacts"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"
+            android:shadowColor="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="12sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/mesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="297dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/safe_btn"
+        android:text="Set Custom Message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,4 +1,6 @@
 # PAGE
+HooHacks Project March 2019
+
 Inspiration - Recent statistical data has shown that up to 23% of women and 13% of men have experienced sexual assault on college campuses. Many times these incidents occur when the victim is alone, or helpless. The team sought out to fix this problem by providing users with a way to alert their friends and/or authorities if they were ever in a situation in which they felt unsafe.
 What it does - The user interface of Page is really quite simple. Users in active situations can press the button, at which point a pre-designated timer goes off, which triggers customized messages to family or loved ones, and eventually notifies the police. What distinguishes Page from other safety apps is that it records audio and location data whenever the button is pressed, meaning that situations which are unfortunately not stopped can be tracked after they occur through voice recognition or closed circuit television.
 How we built it - The team built Page in Android Studio from scratch. A couple of the given Layouts were used to create functionality such as the navigation drawer or baseline activities, but in general all code was drawn up, modeled, and written by team members.

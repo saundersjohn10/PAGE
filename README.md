@@ -8,3 +8,7 @@ Challenges we ran into - with the exception of one team member, this was everyon
 Accomplishments that we're proud of - We are all definitely very proud of the progress that we made in learning to program Android applications. The process was slow and arduous at times, but very worthwhile.
 What we learned - We learned how to communicate in the creation of a single interface application
 What's next for Page - There are a couple more features that we would like to implement in the future, such as a map functionality for certified dispatchers to be able to see where situations are as well as
+
+<img width="301" alt="screen shot 2019-03-03 at 8 50 54 am" src="https://user-images.githubusercontent.com/36249204/53699748-afd92b00-3db9-11e9-9bd5-66e34853f18c.png">
+<img width="305" alt="screen shot 2019-03-03 at 8 49 44 am" src="https://user-images.githubusercontent.com/36249204/53699749-afd92b00-3db9-11e9-9164-1c4d400ca862.png">
+<img width="301" alt="screen shot 2019-03-03 at 8 49 16 am" src="https://user-images.githubusercontent.com/36249204/53699750-afd92b00-3db9-11e9-944c-a31fc0e7830a.png">
